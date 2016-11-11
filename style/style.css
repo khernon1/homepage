@@ -1,12 +1,36 @@
-.first-page {
-  background: 
-    linear-gradient(
-      rgba(75, 0, 130, 0.45), 
-      rgba(75, 0, 130, 0.45)
-    ),    
-    url("../assets/office.jpeg");
+html, body, section, div {
+  height: 50vh;
 }
 
-#main-text {
-  color: white;
+img {
+  max-height: 100%;
+  max-width: 100%;
 }
+.container-fluid {
+  display: -ms-grid;
+  -ms-grid-columns: 50% auto;
+}
+
+.first-page-top-half {
+  background: 
+  linear-gradient(
+    rgba(75, 0, 130, 0.45), 
+    rgba(75, 0, 130, 0.45)
+  ),    
+  url("../assets/office.jpeg");
+  background-size: 100% 100%;
+  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+}
+
+#first-page-text {
+  color: #f0f0f0;
+}
+
+.first-page-bottom-half {
+  background-color: rgb(75, 0, 130) ;
+}
+
+
+
+
