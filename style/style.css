@@ -1,0 +1,12 @@
+.first-page {
+  background: 
+    linear-gradient(
+      rgba(75, 0, 130, 0.45), 
+      rgba(75, 0, 130, 0.45)
+    ),    
+    url("../assets/office.jpeg");
+}
+
+#main-text {
+  color: white;
+}
