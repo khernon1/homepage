@@ -34,7 +34,7 @@
 
   #team-container #team-member {
     float: right;
-    width: 25%;    
+    width: 25%;
   }
 }
 
@@ -125,6 +125,19 @@ img {
 #team-container img {
   border-radius: 50% 50%;
   width: 50%;
+}
+
+#sponsors-container {
+  background-color: rgb(75, 0, 130);
+  width: 100%;
+}
+
+#sponsors-logos {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+  padding: 20px;
 }
 
 /*.first-page-text h2 {
