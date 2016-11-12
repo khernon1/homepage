@@ -13,8 +13,8 @@
     ]
 
     servicesList.forEach(function(service, index) {
-      $("#services-data").append("<p>" + service["title"] +
-        "<ul>" + service["data"] + "</ul></p>") 
+      $("#services-data").append("<p id='title'>" + service["title"] +
+        "</p><p id='data'>" + service["data"] + "</p>") 
     })
 
 

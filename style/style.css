@@ -14,9 +14,31 @@
     max-width: 600px;
     padding: 40px;
   }
+
+  #redefining-container #layers-image {
+    float: left;
+    width: 50%;
+  }
+
+  #redefining-container #redefining-text {
+    float: right;
+    width: 50%;
+    text-align: left;
+  }
+
+  #services-container #services-data {
+    column-count: 3;
+    column-gap: 200px; 
+    width: 100%;
+  }
+
+  #team-container #team-member {
+    float: right;
+    width: 25%;    
+  }
 }
 
-/*for small screen devices in landscape mode */
+/*for tablets */
 @media (min-width: 600px) {
   .container-fluid {
     margin: auto;
@@ -25,18 +47,12 @@
   }
 }
 
+/*all larger devices */
 @media (min-width: 768px) {
   .container-fluid {
     margin: auto;
-    max-width: 900px;
-    padding: 80px;
-  }
-}
-
-@media (min-width: 900px) {
-  .container-fluid {
-    margin: auto;
-    /*max-width: px;*/
+    font-size: 18px;
+    max-width: 800px;
     padding: 150px;
   }
 }
@@ -45,12 +61,6 @@ img {
   max-height: 100%;
   max-width: 100%;
 }
-
-
-/*.container-fluid {
-  display: -ms-grid;
-  -ms-grid-columns: 50% auto;
-}*/
 
 #headline {
   color: rgb(242, 242, 242);
@@ -64,7 +74,7 @@ img {
   background-size: cover;
 }
 
-#button1 {
+#headline #button1 {
   background-color: rgb(75, 0, 130);
   font-size: 12px;
   width: 120px;
@@ -77,6 +87,45 @@ img {
   text-align: center;
 }
 
+
+#redefining-container #button2 {
+  background-color: rgb(75, 0, 130);
+  font-size: 11px;
+  border-radius: 8px;
+  width: 100px;
+  height: 25px; 
+}
+
+#services-container {
+  background-color: rgb(38, 38, 38);
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#services-container h2 {
+  color: rgb(242, 242, 242);
+}
+
+#services-container #services-data #title {
+  color: rgb(242, 242, 242);
+}
+
+#services-container p {
+  color: rgb(166, 166, 166);
+}
+
+#services-container #services-data {
+  padding-top: 10px;
+}
+
+#team-container {
+  text-align: center; 
+}
+
+#team-container img {
+  border-radius: 50% 50%;
+  width: 50%;
+}
 
 /*.first-page-text h2 {
   vertical-align: middle;
@@ -93,15 +142,6 @@ img {
   background-color: rgb(75, 0, 130);
   padding-top: 30px;
 }
-
-#button2 {
-  background-color: rgb(75, 0, 130);
-  font-size: 11px;
-  border-radius: 8px;
-  width: 100px;
-  height: 25px; 
-}
-
 
 
 .services-page {
@@ -124,4 +164,4 @@ img {
   column-gap: 20px;
   color: rgb(242, 242, 242);
   width: 100%;
-}*/
+}
