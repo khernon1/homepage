@@ -16,8 +16,6 @@
       $("#footer-data" + n).append("<p id='title" +index + "'>" + footer["title"] +
         "</p>")
       footer["data"].forEach(function(data) {
-        // debugger
-        console.log(n)
         $("#footer-data" + n + " #title" + index).append("<ul>" + data + "</ul>")
       })
       if (index % 2 != 0) {
