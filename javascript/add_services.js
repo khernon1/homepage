@@ -1,5 +1,5 @@
 (function($) {
-  $(function() { // DOM Ready
+  $(function() {
 
     // iterate through list
     let servicesInfo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -16,18 +16,5 @@
       $("#services-data").append("<p id='title'>" + service["title"] +
         "</p><p id='data'>" + service["data"] + "</p>") 
     })
-
-
-    $('#nav-toggle').click(function() {
-      this.classList.toggle("active");
-      // If sidebar is visible:
-      if ($('body').hasClass('show-nav')) {
-        // Hide sidebar
-        $('body').removeClass('show-nav');
-      } else { // If sidebar is hidden:
-        $('body').addClass('show-nav');
-        // Display sidebar
-      }
-    });
   });
 })(jQuery);

@@ -1,5 +1,5 @@
 (function($) {
-  $(function() { // DOM Ready
+  $(function() {
     
     // Toggle navigation
     $('#nav-toggle').click(function() {
