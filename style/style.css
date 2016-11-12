@@ -5,6 +5,10 @@
     max-width: 480px;
     padding: 40px;
   }
+
+  input[type=text], textarea {
+    width: 80%;
+  }
 }
 
 /*for small screen devices in landscape mode */
@@ -33,6 +37,16 @@
   }
 
   #team-container #team-member {
+    float: right;
+    width: 25%;
+  }
+
+  form {
+    float: left;
+    width: 75%;
+  }
+
+  #address-data {
     float: right;
     width: 25%;
   }
@@ -140,41 +154,24 @@ img {
   padding: 20px;
 }
 
-/*.first-page-text h2 {
-  vertical-align: middle;
-}
-
-#first-page-text {
-  color: rgb(242, 242, 242);
-}
-
-
-
-.first-page-bottom-half {
-  float: right;
-  background-color: rgb(75, 0, 130);
-  padding-top: 30px;
-}
-
-
-.services-page {
+#contact-container {
   background-color: rgb(38, 38, 38);
-  padding-top: 20px;
-  padding-bottom: 30px;
 }
 
-#services-header h2 {
+#contact-container h2, #contact-container #title {
   color: rgb(242, 242, 242);
 }
 
-#services-header p {
+#contact-container p, #contact-container #button3 {
   color: rgb(166, 166, 166);
 }
 
-#services-data {
-  padding-top: 10px;
-  column-count: 3;
-  column-gap: 20px;
-  color: rgb(242, 242, 242);
-  width: 100%;
+input[type=text], textarea {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border-radius: 5%;
 }
+
+
+
+
