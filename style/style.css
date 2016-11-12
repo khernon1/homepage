@@ -1,5 +1,15 @@
-html, body, section, div {
-  height: 50vh;
+/*html, body, section, div {
+  height: 45vh;
+}*/
+
+.first-page-top-half, .first-page-bottom-half {
+ height: 45vh; 
+}
+* { -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 img {
@@ -29,7 +39,7 @@ img {
 }
 
 #first-page-text {
-  color: #f0f0f0;
+  color: rgb(242, 242, 242);
 }
 
 #button1 {
@@ -40,7 +50,8 @@ img {
 }
 
 .first-page-bottom-half {
-  background-color: rgb(75, 0, 130) ;
+  background-color: rgb(75, 0, 130);
+  padding-top: 10px;
 }
 
 #button2 {
@@ -51,8 +62,24 @@ img {
   height: 25px; 
 }
 
+
+
 .services-page {
   background-color: rgb(38, 38, 38);
 }
 
+#services-header h2 {
+  color: rgb(242, 242, 242);
+}
 
+#services-header p {
+  color: rgb(166, 166, 166);
+}
+
+#services-data {
+  padding-top: 10px;
+  column-count: 3;
+  column-gap: 20px;
+  color: rgb(242, 242, 242);
+  width: 100%;
+}
