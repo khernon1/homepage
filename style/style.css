@@ -1,15 +1,44 @@
-/*html, body, section, div {
-  height: 45vh;
-}*/
-
-.first-page-top-half, .first-page-bottom-half {
- height: 45vh; 
+/*for small screen devices in portrait mode */
+@media (min-width: 320px) {
+  .container-fluid {
+    margin: auto;
+    max-width: 480px;
+    padding: 40px;
+  }
 }
-* { -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+
+/*for small screen devices in landscape mode */
+@media (min-width: 480px) {
+  .container-fluid {
+    margin: auto;
+    max-width: 600px;
+    padding: 40px;
+  }
+}
+
+/*for small screen devices in landscape mode */
+@media (min-width: 600px) {
+  .container-fluid {
+    margin: auto;
+    max-width: 768px;
+    padding: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    margin: auto;
+    max-width: 900px;
+    padding: 80px;
+  }
+}
+
+@media (min-width: 900px) {
+  .container-fluid {
+    margin: auto;
+    /*max-width: px;*/
+    padding: 150px;
+  }
 }
 
 img {
@@ -17,29 +46,22 @@ img {
   max-width: 100%;
 }
 
-.container-fluid {
+
+/*.container-fluid {
   display: -ms-grid;
   -ms-grid-columns: 50% auto;
-}
+}*/
 
-.first-page-top-half {
+#headline {
+  color: rgb(242, 242, 242);
+  text-align: center;
   background: 
   linear-gradient(
     rgba(75, 0, 130, 0.45), 
     rgba(75, 0, 130, 0.45)
   ),    
   url("../assets/office.jpeg");
-  background-size: 100% 100%;
-  -ms-grid-column: 1;
-  -ms-grid-row: 1;
-}
-
-.first-page-text h2 {
-  vertical-align: middle;
-}
-
-#first-page-text {
-  color: rgb(242, 242, 242);
+  background-size: cover;
 }
 
 #button1 {
@@ -49,9 +71,27 @@ img {
   height: 35px;
 }
 
-.first-page-bottom-half {
+#redefining-container {
   background-color: rgb(75, 0, 130);
-  padding-top: 10px;
+  color: rgb(242, 242, 242);
+  text-align: center;
+}
+
+
+/*.first-page-text h2 {
+  vertical-align: middle;
+}
+
+#first-page-text {
+  color: rgb(242, 242, 242);
+}
+
+
+
+.first-page-bottom-half {
+  float: right;
+  background-color: rgb(75, 0, 130);
+  padding-top: 30px;
 }
 
 #button2 {
@@ -66,6 +106,8 @@ img {
 
 .services-page {
   background-color: rgb(38, 38, 38);
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 #services-header h2 {
@@ -82,4 +124,4 @@ img {
   column-gap: 20px;
   color: rgb(242, 242, 242);
   width: 100%;
-}
+}*/

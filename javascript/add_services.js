@@ -13,7 +13,6 @@
     ]
 
     servicesList.forEach(function(service, index) {
-      debugger
       $("#services-data").append("<p>" + service["title"] +
         "<ul>" + service["data"] + "</ul></p>") 
     })
