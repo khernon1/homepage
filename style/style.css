@@ -7,7 +7,15 @@
   }
 
   input[type=text], textarea {
-    width: 80%;
+    width: 90%;
+  }
+
+  footer #footer-data1 {
+    float: left;
+  }
+
+  footer #footer-data2 {
+    float: right;
   }
 }
 
@@ -50,6 +58,14 @@
     float: right;
     width: 25%;
   }
+
+  #contact-container #contact-text {
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+  }
+
+
 }
 
 /*for tablets */
@@ -58,6 +74,13 @@
     margin: auto;
     max-width: 768px;
     padding: 80px;
+  }
+
+  footer p {
+    margin: auto;
+    float: left;
+    padding: 25px;
+    max-width: 75%;
   }
 }
 
@@ -158,6 +181,11 @@ img {
   background-color: rgb(38, 38, 38);
 }
 
+#contact-container #contact-text, #contact-container #form-format {
+  text-align: center;
+}
+
+
 #contact-container h2, #contact-container #title {
   color: rgb(242, 242, 242);
 }
@@ -166,10 +194,22 @@ img {
   color: rgb(166, 166, 166);
 }
 
+
 input[type=text], textarea {
   background-color: rgb(51, 51, 51);
   color: white;
   border-radius: 5%;
+}
+
+footer {
+  background-color: rgb(38, 38, 38);
+  color: rgb(242, 242, 242);
+}
+
+footer ul {
+  color: rgb(166, 166, 166);
+  list-style: none;
+  padding: 0;
 }
 
 

@@ -2,7 +2,7 @@
   $(function() { // DOM Ready
 
     // iterate through list
-    let servicesList = [
+    let addressList = [
       {title: "Address", data: "307 5th Avenue"},
       {title: "Phone", data: "555-555-555"},
       {title: "Fax", data: "Who uses a fax?"},
@@ -10,9 +10,9 @@
       {title: "Connect", data: "facebook etc etc"}
     ]
 
-    servicesList.forEach(function(service, index) {
-      $("#address-data").append("<p id='title'>" + service["title"] +
-        "</p><p id='data'>" + service["data"] + "</p>") 
+    addressList.forEach(function(address, index) {
+      $("#address-data").append("<p id='title'>" + address["title"] +
+        "</p><p id='data'>" + address["data"] + "</p>") 
     })
 
     $('#nav-toggle').click(function() {
