@@ -52,7 +52,7 @@ img {
 
 #services-container {
   background-color: rgb(38, 38, 38);
-  padding-bottom: 30px;
+  /*padding-bottom: 30px;*/
   text-align: center;
 }
 
@@ -64,9 +64,10 @@ img {
   color: rgb(242, 242, 242);
 }
 
-#services-container p {
+#services-container p, #services-container #services-data p {
   color: rgb(166, 166, 166);
 }
+
 
 #services-container #services-data {
   padding-top: 10px;
@@ -78,7 +79,7 @@ img {
 
 #team-container img {
   border-radius: 50% 50%;
-  width: 50%;
+  width: 40%;
 }
 
 #sponsors-container {
@@ -125,7 +126,6 @@ input[type=text], textarea[type=text] {
   border: none;
 }
 
-
 footer {
   background-color: rgb(26, 26, 26);
   color: rgb(242, 242, 242);
@@ -144,6 +144,16 @@ footer #copyright {
   width: 100%;
   border-style: solid;
   border-top: thin single black;
+}
+
+.carousel-inner > .item > #name {
+  color: rgb(75, 0, 130);
+  font-weight: bold;
+}
+
+.carousel-inner > .item > #title,
+.carousel-inner > .item > #quote {
+  color: rgb(75, 0, 130);
 }
 
 .carousel-inner > .item > img,

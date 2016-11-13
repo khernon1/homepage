@@ -4,19 +4,9 @@
   <title>Some Company</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="stylesheet" href="style/portrait.css">
-  <link rel="stylesheet" href="style/landscape.css">
-  <link rel="stylesheet" href="style/tablet.css">
-  <link rel="stylesheet" href="style/larger.css">
-  <link rel="stylesheet" href="style/navigation.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="javascript/add_services.js"></script>
-  <script type="text/javascript" src="javascript/add_address.js"></script>
-  <script type="text/javascript" src="javascript/add_footer.js"></script>
-  <script type="text/javascript" src="javascript/toggle_navbar.js"></script>
 </head>
 <body>
 
@@ -71,7 +61,8 @@
         <p>
           <%= Tagline.all.sample['saying'] %>
         </p>
-        <br><div id="services-data"></div></br>
+        <div class="row" id="services-data">
+        </div>
     </div>
   </div>
 
@@ -97,26 +88,30 @@
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <%= image_tag "#{User.first['picture']}" %>
-      <p> <%= User.first['name'] %> </p>
-      <p> <%= User.first['title'] %> </p>
+      <p id="name"> <%= User.first['name'] %> </p>
+      <p id= "title"> <%= User.first['title'] %> </p>
+      <p id= "quote"> <%= User.first['quote'] %> </p>
     </div>
 
     <div class="item">
       <%= image_tag "#{User.second['picture']}" %>
-      <p> <%= User.second['name'] %> </p>
-      <p> <%= User.second['title'] %> </p>
+      <p id="name"> <%= User.second['name'] %> </p>
+      <p id="title"> <%= User.second['title'] %> </p>
+      <p id="quote"> <%= User.second['quote'] %> </p>
     </div>
 
     <div class="item">
       <%= image_tag "#{User.third['picture']}" %>
-      <p> <%= User.third['name'] %> </p>
-      <p> <%= User.third['title'] %> </p>
+      <p id="name"> <%= User.third['name'] %> </p>
+      <p id="title"> <%= User.third['title'] %> </p>
+      <p id="quote"> <%= User.third['quote'] %> </p>
     </div>
 
     <div class="item">
       <%= image_tag "#{User.fourth['picture']}" %>
-      <p> <%= User.fourth['name'] %> </p>
-      <p> <%= User.fourth['title'] %> </p>
+      <p id="name"> <%= User.fourth['name'] %> </p>
+      <p id="title"> <%= User.fourth['title'] %> </p>
+      <p id="quote"> <%= User.fourth['quote'] %> </p>
     </div>
 
   </div>
@@ -153,7 +148,7 @@
           <%= Tagline.all.sample['saying'] %>
         </p>
       </div>
-      <div id="form-format">
+      <br><div id="form-format">
         <form>
           <input type="text" name="name" placeholder="Name"><p></p>
           <input type="text" name="email" placeholder="Email"><p></p>
@@ -174,6 +169,18 @@
     </div>
   <div id="copyright"> © SomeCompany.com </div>
   </footer>
+
+<div class="section group">
+  <div class="col span_1_of_3">
+  This is column 1
+  </div>
+  <div class="col span_1_of_3">
+  This is column 2
+  </div>
+  <div class="col span_1_of_3">
+  This is column 3
+  </div>
+</div>
 
 </body>
 </html>

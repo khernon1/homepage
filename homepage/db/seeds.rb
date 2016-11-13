@@ -10,13 +10,13 @@ Tagline.destroy_all
 n = 0
 4.times do 
   User.create(name: Faker::Name.name, 
-              quote: Faker::ChuckNorris.fact,
+              quote: Faker::Hacker.say_something_smart,
               picture: Faker::Avatar.image("image#{n}", "200x200"),
               title: Faker::Company.buzzword
               )
   n += 1
 end
 
-50.times do
+100.times do
   Tagline.create(saying: Faker::ChuckNorris.fact)
 end

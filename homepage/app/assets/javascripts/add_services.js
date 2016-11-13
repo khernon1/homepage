@@ -17,9 +17,14 @@
     ]
 
     servicesList.forEach(function(service, index) {
-      $("#services-data").append("<p id='title'>" + service["title"] +
-        "</p><p id='data'>" + service["data"].saying + "</p>")     
+      $("#services-data").append("<div class='col-xs-4'><p>" + service["title"] +
+        "</p><p>" + service["data"].saying + "</p></div>")     
     })
   })
   });
 })(jQuery);
+
+      //     $('table #header').append("<td id='title" + index + "'>" + service["title"] +
+      //   "</td>")
+      // $('table #data').append("<td id='data" + index + "'>" + service["data"].saying +
+      //   "</td>")
