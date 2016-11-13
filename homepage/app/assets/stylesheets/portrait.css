@@ -1,0 +1,34 @@
+/*for small screen devices in portrait mode */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .container-fluid {
+    margin: auto;
+    padding: 40px;
+  }
+
+  #redefining-container #layers-image {
+    width: 50%;    
+  }
+
+  input[type=text], textarea {
+    width: 90%;
+  }
+
+  header {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(75, 0, 130);
+    color: rgb(242, 242, 242);
+  }
+
+  footer #footer-data1 {
+    float: left;
+    width: 50%;
+  }
+
+  footer #footer-data2 {
+    float: right;
+    width: 50%;
+  }
+
+}

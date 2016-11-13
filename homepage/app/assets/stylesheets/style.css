@@ -1,0 +1,153 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow-x: hidden; 
+    max-width: 1200px;
+    margin: 0 auto !important;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#headline {
+  color: rgb(242, 242, 242);
+  text-align: center;   
+  background: 
+  linear-gradient(
+    rgba(75, 0, 130, 0.45), 
+    rgba(75, 0, 130, 0.45)
+  ),    
+  url("../assets/office.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+#headline #button1 {
+  background-color: rgb(75, 0, 130);
+  font-size: 12px;
+  width: 120px;
+  height: 35px;
+}
+
+#headline p { 
+  opacity: .75;
+}
+
+#redefining-container {
+  background-color: rgb(75, 0, 130);
+  color: rgb(242, 242, 242);
+  text-align: center;
+}
+
+#redefining-container #button2 {
+  background-color: rgb(75, 0, 130);
+  font-size: 11px;
+  border-radius: 8px;
+  width: 100px;
+  height: 25px; 
+}
+
+#services-container {
+  background-color: rgb(38, 38, 38);
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#services-container h2 {
+  color: rgb(242, 242, 242);
+}
+
+#services-container #services-data #title {
+  color: rgb(242, 242, 242);
+}
+
+#services-container p {
+  color: rgb(166, 166, 166);
+}
+
+#services-container #services-data {
+  padding-top: 10px;
+}
+
+#team-container {
+  text-align: center; 
+}
+
+#team-container img {
+  border-radius: 50% 50%;
+  width: 50%;
+}
+
+#sponsors-container {
+  background-color: rgb(75, 0, 130);
+  width: 100%;
+}
+
+#sponsors-logos {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+#contact-container {
+  background-color: rgb(38, 38, 38);
+}
+
+#contact-container #contact-text, #contact-container #form-format {
+  text-align: center;
+}
+
+
+#contact-container h2, #contact-container #title {
+  color: rgb(242, 242, 242);
+}
+
+#contact-container p, #contact-container #button3 {
+  color: rgb(166, 166, 166);
+}
+
+#contact-container #title {
+  padding: 0;
+  margin: 0;
+}
+
+input[type=text], textarea[type=text] {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border-radius: 5%;
+  font-size: 11px;
+  padding: 8px;
+  border: none;
+}
+
+
+footer {
+  background-color: rgb(26, 26, 26);
+  color: rgb(242, 242, 242);
+}
+
+footer ul {
+  color: rgb(166, 166, 166);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer #copyright {
+  color: rgb(166, 166, 166);
+  font-size: 10px;
+  width: 100%;
+  border-style: solid;
+  border-top: thin single black;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}

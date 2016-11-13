@@ -1,0 +1,57 @@
+/*for small screen devices in landscape mode */
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+  .container-fluid {
+    margin: auto;
+    padding: 40px;
+  }
+
+  #redefining-container #layers-image {
+    float: left;
+    width: 50%;    
+  }
+
+  #redefining-container #redefining-text {
+    float: right;
+    width: 50%;
+    text-align: left;
+  }
+
+  #services-container #services-data {
+    column-count: 3;
+    column-gap: 10%; 
+    width: 100%;
+  }
+
+  #team-container #team-member {
+    width: 100%;
+  }
+
+  input[type=text], textarea {
+    width: 90%;
+  }
+
+  #contact-container #contact-text {
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  header {
+    margin: auto;
+    width: 100%;
+    background-color: rgb(75, 0, 130);
+    color: rgb(242, 242, 242);
+  }
+
+  footer #footer-data1 {
+    float: left;
+    width: 50%;
+  }
+
+  footer #footer-data2 {
+    float: right;
+    width: 50%;
+  }
+
+
+}
