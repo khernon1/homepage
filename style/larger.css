@@ -56,8 +56,7 @@
   }
 
   #team-container #team-member {
-    float: right;
-    width: 25%;
+    width: 100%;
   }
 
   form {
@@ -73,6 +72,7 @@
   #address-data {
     float: right;
     width: 25%;
+    text-align: left
   }
 
   #contact-container #contact-text {

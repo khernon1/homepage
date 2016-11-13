@@ -23,8 +23,7 @@
   }
 
   #team-container #team-member {
-    float: right;
-    width: 25%;
+    width: 100%;
   }
 
   input[type=text], textarea {

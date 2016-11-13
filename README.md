@@ -7,7 +7,6 @@ over all
 
 
 services page
-- add images above each option
 
 our team
 - add names
@@ -28,3 +27,23 @@ possible carousel for photos?
 add alt tag to images for hearing impaired
 
 random wiki
+
+
+    <div id="team-member">
+        <div id="item">
+        <img src="assets/nene.jpeg">
+        <p> Director of Marketing </p>
+        <p id="info"> 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        </div>
+      </div>
+      <div id="team-member">
+        <div id="item">
+        <img src="assets/miley.jpg">
+        <p> Creative Director </p>
+        <p id="info"> 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        </div>
+        </div>
