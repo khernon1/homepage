@@ -1,12 +1,21 @@
 # homepage
 
-breakpoints for responsive design
+To do now:
+over all
+- on large view adjust padding
+  - remove header as fixed
 
-fixed header for mobile
 
-off canvas for mobile
+services page
+- add images above each option
 
-bootstrap 3
+our team
+- add names
+- add social media links
+- look into carousel
+
+contact
+
 
 fontificate for fonts
 
@@ -18,24 +27,4 @@ possible carousel for photos?
 
 add alt tag to images for hearing impaired
 
-break on content not size
-
-transparent fonts
-
-To do
-first page
-- fix to not show entire background image
-- center text and buttons vertically - span?
-- size of image
-- add nav bar at top
-- increase pixelation
-
-second page
-- add padding
-
-bottom
-- add footer
-
-add social media links
 random wiki
-fix size of page issue from container-fluid
