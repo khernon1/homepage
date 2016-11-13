@@ -18,7 +18,7 @@
 
   #services-container #services-data {
     column-count: 3;
-    column-gap: 200px; 
+    column-gap: 10%; 
     width: 100%;
   }
 
