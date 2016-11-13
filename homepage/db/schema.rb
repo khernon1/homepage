@@ -10,12 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161113044739) do
+ActiveRecord::Schema.define(version: 20161113063049) do
 
   create_table "homes", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "taglines", force: :cascade do |t|
+    t.string   "saying"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "picture"
+    t.string   "name"
+    t.string   "quote"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string   "title"
   end
 
 end
