@@ -1,9 +1,6 @@
 # Homepage
 
-___
-
 To run the application:
-
 
 1. Clone the repo
 2. Cd into the directory and run `rails s` in the terminal
@@ -11,7 +8,6 @@ To run the application:
 
 ## Details
 
-___
 I used a mobile-first strategy and built out from there. Below are the breakpoints used which are a combination of the recommendations I read in snippets of Ethan Marcotte's _Responsive Web Design_ and based off the context of the site itself.
 
 1. Mobile in portrait mode: 320px - 480px
@@ -32,6 +28,8 @@ ___
 I used jQuery to load things such as the services offered, the footer details, address, etc. The files are in `app/assets/javascript` and could be changed by quickly updating the data in the lists.
 
 ### Fun stuff
+
+___
 I used the Faker gem to get Chuck Norris quotes, Robot pictures, and some other things because developer-related Chuck Norris quotes are the best and the other stuff is pretty ok too. It makes an ajax call to the database so refresh and see a new sampling of Chuck quotes.
 
 Also, the nav bar and some other links are links to a random Wikipedia page. Happy procrastinating!
