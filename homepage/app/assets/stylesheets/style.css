@@ -52,22 +52,16 @@ img {
 
 #services-container {
   background-color: rgb(38, 38, 38);
-  /*padding-bottom: 30px;*/
   text-align: center;
 }
 
-#services-container h2 {
+#services-container h2, #services-container #services-data p {
   color: rgb(242, 242, 242);
 }
 
-#services-container #services-data #title {
-  color: rgb(242, 242, 242);
+#services-container p, #services-container #services-data ul {
+  color: rgb(89, 89, 89);
 }
-
-#services-container p, #services-container #services-data p {
-  color: rgb(166, 166, 166);
-}
-
 
 #services-container #services-data {
   padding-top: 10px;
@@ -160,4 +154,46 @@ footer #copyright {
 .carousel-inner > .item > a > img {
     width: 70%;
     margin: auto;
+}
+
+/*  SECTIONS  ============================================================================= */
+
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+  .col { 
+    margin: 1% 0 1% 0%;
+  }
 }

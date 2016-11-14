@@ -49,11 +49,10 @@
     text-align: left;
   }
 
-  #services-container #services-data .col-xs-4 {
-/*    column-count: 3;
+  #services-container #services-data {
+    column-count: 3;
     column-gap: 20%; 
-    width: 100%;*/
-    /*width: 30%;*/
+    /*column-width: 30%;*/
   }
 
   #team-container #team-member {

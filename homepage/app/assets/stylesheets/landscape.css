@@ -16,11 +16,9 @@
     text-align: left;
   }
 
-  #services-container #services-data p {
-/*    column-count: 3;
-    column-gap: 10%; 
-    column-width: 100%;*/
-    display: block;
+  #services-container #services-data {
+    column-count: 3;
+    column-gap: 20%; 
   }
 
   #team-container #team-member {
