@@ -18,17 +18,14 @@ I used a mobile-first strategy and built out from there. Below are the breakpoin
 The context didn't look great at much larger than that so that was the max limit I set.
 
 ### Styling
-
 ___
 The styling files can be found in `app/assets/stylesheets`. I broke it up into a file for each breakpoint as well as a general styling for everything. There was some repeat css between them (such as both mobile modes or tablets and laptops) but I found this to be a more effective way and could easily locate where adjustments were needed.
 
 ### Easily update the content
-
 ___
 I used jQuery to load things such as the services offered, the footer details, address, etc. The files are in `app/assets/javascript` and could be changed by quickly updating the data in the lists.
 
 ### Fun stuff
-
 ___
 I used the Faker gem to get Chuck Norris quotes, Robot pictures, and some other things because developer-related Chuck Norris quotes are the best and the other stuff is pretty ok too. It makes an ajax call to the database so refresh and see a new sampling of Chuck quotes.
 
