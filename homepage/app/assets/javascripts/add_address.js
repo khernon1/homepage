@@ -3,13 +3,13 @@
 
     // iterate through list
     let socialIcons = `
-    <a class="btn btn-social-icon btn-facebook">
+    <a target="_blank" href="https://www.wikipedia.org/wiki/Special:Random" class="btn btn-social-icon btn-facebook">
       <span class="fa fa-facebook"></span>
     </a>
-    <a class="btn btn-social-icon btn-twitter">
+    <a target="_blank" href="https://www.wikipedia.org/wiki/Special:Random" class="btn btn-social-icon btn-twitter">
       <span class="fa fa-twitter"></span>
     </a>
-    <a class="btn btn-social-icon btn-linkedin">
+    <a target="_blank" href="https://www.wikipedia.org/wiki/Special:Random" class="btn btn-social-icon btn-linkedin">
       <span class="fa fa-linkedin"></span>
     </a>
       `

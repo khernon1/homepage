@@ -158,14 +158,6 @@ footer #copyright {
     margin: auto;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Lato);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-body {
-    font-family: 'Lato', sans-serif;
-    color: #FFF;
-    background: #322f30;
-    -webkit-font-smoothing: antialiased;
-}
 a {
     text-decoration: none;
     color: #fff;
@@ -248,18 +240,7 @@ ul.social-icons {
 .fa-rss:hover {
     background-color: #eb8231;
 }
-.fa-youtube {
-    padding:10px 14px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-.fa-youtube:hover {
-    background-color: #e64a41;
-}
+
 .fa-linkedin {
     padding:10px 14px;
     -o-transition:.5s;
@@ -271,16 +252,4 @@ ul.social-icons {
 }
 .fa-linkedin:hover {
     background-color: #0073a4;
-}
-.fa-google-plus {
-    padding:10px 9px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: #322f30;
-}
-.fa-google-plus:hover {
-    background-color: #e25714;
 }
