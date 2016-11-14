@@ -1,10 +1,15 @@
-html,body {
-    width: 100%;
-    height: 100%;
-    padding: 0px;
-    overflow-x: hidden; 
-    max-width: 1200px;
-    margin: 0 auto !important;
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+* {
+  font-family: 'Quicksand';
+}
+html,body {  
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  overflow-x: hidden; 
+  max-width: 1200px;
+  margin: 0 auto !important;
+  
 }
 
 img {
@@ -53,18 +58,15 @@ img {
 #services-container {
   background-color: rgb(38, 38, 38);
   text-align: center;
+  padding-bottom: 50px;
 }
 
-#services-container h2, #services-container #services-data p {
+#services-container h2, #services-container #services-data #title {
   color: rgb(242, 242, 242);
 }
 
-#services-container p, #services-container #services-data ul {
+#services-container p, #services-container #services-data #data {
   color: rgb(89, 89, 89);
-}
-
-#services-container #services-data {
-  padding-top: 10px;
 }
 
 #team-container {
@@ -156,44 +158,129 @@ footer #copyright {
     margin: auto;
 }
 
-/*  SECTIONS  ============================================================================= */
-
-.section {
-  clear: both;
-  padding: 0px;
-  margin: 0px;
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    background: #322f30;
+    -webkit-font-smoothing: antialiased;
 }
-
-/*  GROUPING  ============================================================================= */
-
-
-.group:before,
-.group:after {
-    content:"";
-    display:table;
+a {
+    text-decoration: none;
+    color: #fff;
 }
-.group:after {
-    clear:both;
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
 }
-.group {
-    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
 }
-
-/*  GRID COLUMN SETUP   ==================================================================== */
-
-.col {
-  display: block;
-  float:left;
-  margin: 1% 0 1% 1.6%;
+._12 {
+    font-size: 1.2em;
 }
-
-.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
-
-
-/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
-
-@media only screen and (max-width: 480px) {
-  .col { 
-    margin: 1% 0 1% 0%;
-  }
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
 }

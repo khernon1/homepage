@@ -17,25 +17,11 @@
      ]
  
      servicesList.forEach(function(service, index) {
-       $("#services-data").append("<p>" + service["title"] +
-         "<ul>" + service["data"] + "</ul></p>") 
+       $("#services-data").append("<p id='title'>" + service["title"] +
+         "<p id='data'>" + service["data"] + "</p></p>") 
      })
   })
   });
 })(jQuery);
 
-    // let n = 1
-    // footerList.forEach(function(footer, index) {      
-    //   $("#footer-data" + n).append("<p id='title" +index + "'>" + footer["title"] +
-    //     "</p>")
-    //   footer["data"].forEach(function(data) {
-    //     $("#footer-data" + n + " #title" + index).append("<ul>" + data + "</ul>")
-    //   })
-    //   if (index % 2 != 0) {
-    //     n++
-    //   }
-    // })
-      //     $('table #header').append("<td id='title" + index + "'>" + service["title"] +
-      //   "</td>")
-      // $('table #data').append("<td id='data" + index + "'>" + service["data"].saying +
-      //   "</td>")
+   

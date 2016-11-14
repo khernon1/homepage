@@ -49,10 +49,15 @@
     text-align: left;
   }
 
+  #redefining-container #redefining-text #data {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
   #services-container #services-data {
     column-count: 3;
+    width: 100%;   
     column-gap: 20%; 
-    /*column-width: 30%;*/
   }
 
   #team-container #team-member {
