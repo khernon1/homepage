@@ -14,7 +14,7 @@
     </a>
       `
     let addressList = [
-      {title: "Address", data: "307 5th Avenue"},
+      {title: "Address", data: "307 5th Avenue, 16th Floor, New York, NY 10016"},
       {title: "Phone", data: "555-555-555"},
       {title: "Fax", data: "Who uses a fax?"},
       {title: "Email", data: "info@somecompany.com"},
