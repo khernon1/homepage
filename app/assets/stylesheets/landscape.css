@@ -36,10 +36,30 @@
   }
 
   header {
-    margin: auto;
     width: 100%;
     background-color: rgb(75, 0, 130);
     color: rgb(242, 242, 242);
+  }
+
+  header p {
+    padding: 10px;
+    margin: 0;
+  }
+
+  header ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right; 
+    float: right;
+  }
+
+  header li {
+    float: left;
+    padding: 10px;
+  }
+
+  header li a {
+    color: rgb(242, 242, 242);  
   }
 
   footer #footer-data1 {
